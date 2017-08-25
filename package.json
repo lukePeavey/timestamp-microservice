@@ -1,0 +1,27 @@
+{
+  "name": "timestamp-microservice",
+  "author": "LukePeavey",
+  "version": "0.0.1",
+  "description": "Timestamp microservice project for freecodecamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "ejs": "^2.5.7 "
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "freecodecamp"
+  ]
+}
