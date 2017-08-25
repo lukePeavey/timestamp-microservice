@@ -25,10 +25,8 @@ app.get("/:date", function (request, response) {
     date = new Date(parseInt(params.date) * 1000)
   } 
   
-  else {
-    let natural = date.toLocaleDateString("en-us", options)
-    let unix = date.getTime() / 1000 || null
-  }
+  let natural = date.toLocaleDateString("en-us", options)
+  let unix = date.getTime() / 1000
   // Sends the JSON response
   response.json({
     unix: unix || null, 
